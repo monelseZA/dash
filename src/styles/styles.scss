@@ -1,0 +1,9 @@
+$primary: #24b47e;
+
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+@import 'node_modules/bootstrap-vue/src/index.scss';
+
+
+.card-body , .card-header{
+    padding: 0.5em;
+}
