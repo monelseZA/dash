@@ -3,6 +3,7 @@
 ## Project setup
 ```
 npm install
+This should install bootstrap 4, bootstrap-vue, moment, axios 
 ```
 
 ### Compiles and hot-reloads for development
@@ -19,6 +20,3 @@ npm run build
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

@@ -1,9 +1,25 @@
 $primary: #24b47e;
+$warning: #ffb300;
 
 @import 'node_modules/bootstrap/scss/bootstrap.scss';
 @import 'node_modules/bootstrap-vue/src/index.scss';
 
 
-.card-body , .card-header{
-    padding: 0.5em;
+.card-body , .card-header, .card-footer{
+    h6 {
+        font-weight: 700;
+      }
+    padding: 0.3em;
+
+}
+
+.newLine   {
+    display: block;
+}
+
+@media screen and (min-width: 576px) {
+    .card-deck .card{
+        margin-right:0.5em;
+        margin-left:0.5em;
+    }
 }

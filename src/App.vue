@@ -1,5 +1,8 @@
 <template>
   <div id="app">
+    <b-navbar toggleable="sm" type="dark" variant="primary"
+      ><img src="./assets/logo.png" class="logo"
+    /></b-navbar>
     <b-container class="mt-3">
       <Dashboard />
     </b-container>
@@ -31,7 +34,7 @@ export default class App extends Vue {}
 }
 
 .logo {
-  max-height: 25px;
+  max-height: 20px;
   margin-left: 1em;
 }
 </style>
